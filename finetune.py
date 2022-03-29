@@ -110,7 +110,7 @@ args = TrainingArguments(
     per_device_eval_batch_size=batch_size,
     num_train_epochs=3,
     weight_decay=0.01,
-    push_to_hub=True,
+    #push_to_hub=True,
 )
 
 data_collator = default_data_collator
