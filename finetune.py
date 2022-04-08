@@ -1,4 +1,5 @@
 #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
+#notebook ref: https://colab.research.google.com/github/huggingface/notebooks/blob/master/examples/question_answering.ipynb
 
 import transformers
 from datasets import load_dataset, load_metric
